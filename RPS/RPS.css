@@ -1,0 +1,31 @@
+
+body{
+    text-align: center;
+}
+#result{
+    font-size: x-large;
+    margin-top: 100px;
+}
+.chose{
+   display: inline-block; 
+   width: 120px;
+   height: 200px;
+   border-style: solid;
+   border-radius: 10%;
+   margin-left: 50px;
+   margin-top: 200px;
+}
+.chose:hover{
+    filter: brightness(95%)
+}
+#chose1{
+    background-image: url('nozyce.jpg');
+}
+#chose2{
+    background-image: url('rock.jpg');
+    width: 140px;
+}
+#chose3{
+    background-image: url('Paper.jpg');
+    width: 140px;
+}
